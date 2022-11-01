@@ -3,9 +3,9 @@ from utils import db_scripts
 import mysql.connector
 import pandas as pd
 
+#Removing access token
 
-#monica_token: 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
-github_token='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'
+github_token=''
 g=Github(github_token)
 
 mydb = mysql.connector.connect(
