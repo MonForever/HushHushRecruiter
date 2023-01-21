@@ -1,5 +1,3 @@
-# HushHushRecruiter
-This is a university project done by me for the course Big Data Programming. 
 Introduction: Doodle, a famous software company wishes to automate their recruiting process and build an in-house solution that selects potential candidate. Hush Hush Recruiter is the Candidate Selection Algorithm that automates the process of selecting Potential Candidate from Pool of Candidate using data from Github and Stack Overflow, and sends email to the Candidate, after clustering the Potential Candidate who has been selected after applying the Algorithm.
 
 Candidate Data Source: 1.Github: Using pyGithub Module in Python extracted Github User Data 2.Stack Overflow: a) https://api.stackexchange.com/2.2/questions?order=desc&sort=activity&site=stackoverflow&pagesize=100&page={1} b) https://api.stackexchange.com/2.3/users/{x}/top-tags?pagesize=1&site=stackoverflow
